@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>丁玲的学术主页</title>
+  <style>
+    body {
+      font-family: "Times New Roman", Times, serif; /* 学术界常用的衬线字体 */
+      line-height: 1.6;
+      color: #333;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      background-color: #fff;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+    }
+    .avatar {
+      width: 150px;
+      height: 150px;
+      border-radius: 8px; /* 学术主页通常用方角或微圆角头像 */
+      object-fit: cover;
+      margin-right: 30px;
+    }
+    .info h1 {
+      margin: 0 0 10px 0;
+      font-size: 2em;
+    }
+    .info p {
+      margin: 5px 0;
+      color: #555;
+    }
+    .links a {
+      color: #0066cc;
+      text-decoration: none;
+      margin-right: 15px;
+    }
+    .links a:hover {
+      text-decoration: underline;
+    }
+    h2 {
+      color: #222;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 5px;
+      margin-top: 40px;
+    }
+    .paper-item {
+      margin-bottom: 15px;
+    }
+    .paper-title {
+      font-weight: bold;
+    }
+    .author-me {
+      font-weight: bold; /* 把你自己的名字加粗突出 */
+      text-decoration: underline;
+    }
+    .venue {
+      font-style: italic;
+    }
+    .badge {
+      font-size: 0.85em;
+      border: 1px solid #0066cc;
+      color: #0066cc;
+      padding: 2px 6px;
+      border-radius: 4px;
+      text-decoration: none;
+      margin-right: 5px;
+    }
+    .badge:hover {
+      background: #0066cc;
+      color: #fff;
+    }
+    ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 头部信息区 -->
+  <div class="header">
+    <!-- 头像地址，建议换成你穿正装或工作照的照片链接 -->
+    <img class="avatar" src="https://via.placeholder.com/150" alt="Avatar">
+    <div class="info">
+      <h1>张 三 (San Zhang)</h1>
+      <p>博士研究生 / 副研究员</p>
+      <p>XX大学，计算机科学与技术学院 / XX实验室</p>
+      <div class="links">
+        <a href="mailto:your_email@univ.edu">✉️ Email</a>
+        <a href="你的谷歌学术链接" target="_blank">🎓 Google Scholar</a>
+        <a href="你的ResearchGate链接" target="_blank">🔬 ResearchGate</a>
+        <a href="你的ORCID链接" target="_blank">🆔 ORCID</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 个人简介 -->
+  <h2>个人简介 (Biography)</h2>
+  <p>
+    我是XX大学的（职务/身份），导师是 XXX 教授。我于202X年在XX大学获得硕士/学士学位。
+    我的主要研究兴趣包括<strong>机器学习、计算机视觉、以及XX方向交叉领域</strong>。
+    我致力于解决（某个科学问题），并曾在（某著名期刊/会议）发表过多篇学术论文。
+  </p>
+
+  <!-- 发表论文区 -->
+  <h2>代表性成果 (Publications)</h2>
+  
+  <div class="paper-item">
+    <div class="paper-title">一种基于XX新型算法在XX领域的应用</div>
+    <div>
+      <span class="author-me">San Zhang</span>, Lisi Wang, Wangwu Zhao.
+    </div>
+    <div>
+      <span class="venue">Nature Communications / IEEE Transactions on XXX (TXXX)</span>, 2023. 
+    </div>
+    <div style="margin-top: 5px;">
+      <a href="#" class="badge">PDF</a>
+      <a href="#" class="badge">DOI</a>
+      <a href="#" class="badge">Code</a>
+    </div>
+  </div>
+
+  <div class="paper-item">
+    <div class="paper-title">Title of Your Awesome English Paper Here</div>
+    <div>
+      Lisi Wang, <span class="author-me">San Zhang* (通讯作者)</span>, Wangwu Zhao.
+    </div>
+    <div>
+      <span class="venue">Conference on Computer Vision and Pattern Recognition (CVPR)</span>, 2022.
+    </div>
+    <div style="margin-top: 5px;">
+      <a href="#" class="badge">PDF</a>
+      <a href="#" class="badge">Poster</a>
+    </div>
+  </div>
+
+  <!-- 科研项目区 -->
+  <h2>科研项目 (Research Projects)</h2>
+  <ul>
+    <li>
+      <strong>国家自然科学基金（面上项目）</strong>: XXXX机理研究 (No. 12345678) — 参与/主持 (2022-2025)
+    </li>
+    <li>
+      <strong>XX省重点研发计划</strong>: XXXX系统开发与应用 — 核心骨干 (2021-2023)
+    </li>
+  </ul>
+
+  <!-- 教育经历 -->
+  <h2>教育经历 (Education)</h2>
+  <ul>
+    <li><strong>Ph.D.</strong> in XX专业, XX大学, 2021 - 至今</li>
+    <li><strong>M.S.</strong> in XX专业, XX大学, 2018 - 2021</li>
+    <li><strong>B.S.</strong> in XX专业, XX大学, 2014 - 2018</li>
+  </ul>
+
+  <!-- 学术服务（可选） -->
+  <h2>学术服务 (Academic Services)</h2>
+  <ul>
+    <li>审稿人 (Reviewer): IEEE TMI, CVPR, ICCV, ECCV</li>
+    <li>XXX会议 分会场主席 (Session Chair)</li>
+  </ul>
+
+</body>
+</html>
